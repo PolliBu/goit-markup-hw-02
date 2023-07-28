@@ -22,7 +22,7 @@ body {
 
 .logo {
   color: var(--primary-blue-color);
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -35,7 +35,6 @@ body {
 }
 
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
   color: var(--primary-grey-second-color);
 }
 
@@ -63,7 +62,7 @@ body {
   background: var(--active-link-color);
 }
 
-.nav-item {
+.nav-item .link {
   color: var(--primary-black-color);
   font-family: var(--primary-font);
   font-size: var(--primary-font-size);
@@ -79,6 +78,7 @@ body {
 
 .address-contacts .link {
   color: var(--primary-grey-color);
+  font-style: normal;
 }
 
 .address-contacts .link:hover,
@@ -96,9 +96,12 @@ body {
   font-weight: 700;
   line-height: 1.07;
   line-height: var(--primary-line-height);
+  line-height: 1.07;
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 .title {
+  color: var(--primary-black-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
