@@ -155,7 +155,7 @@ body {
   color: var(--primary-black-color);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: var(--primary-letter-spacing);
 }
 
