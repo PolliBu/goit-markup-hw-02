@@ -76,6 +76,9 @@ body {
   color: var(--active-link-color);
 }
 
+.address-contacts {
+  font-style: normal;
+}
 .address-contacts .link {
   color: var(--primary-grey-color);
   font-style: normal;
@@ -153,6 +156,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  line-height: var(--primary-line-height);
 }
 
 .section-photo-text,
