@@ -1,7 +1,7 @@
 :root {
   --primary-font: 'Roboto', sans-serif;
-  --primary-black-color: #2e2f42;
   --primary-grey-color: #434455;
+  --primary-black-color: #2e2f42;
   --primary-white-color: #fff;
   --active-link-color: #404bbf;
   --primary-grey-second-color: #f4f4fd;
@@ -13,7 +13,7 @@
 
 body {
   font-family: var(--primary-font);
-  color: var(--primary-black-color);
+  color: var(--primary-grey-color);
   font-size: var(--primary-font-size);
   background-color: var(--primary-white-color);
   line-height: var(--primary-line-height);
@@ -22,7 +22,7 @@ body {
 
 .logo {
   color: var(--primary-blue-color);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -35,19 +35,23 @@ body {
 }
 
 .logo-footer {
+  font-family: 'Raleway', sans-serif;
   color: var(--primary-grey-second-color);
 }
 
-a {
+.link {
   text-decoration: none;
 }
 
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
 .button {
+  font-family: inherit;
   cursor: pointer;
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
   background: var(--primary-blue-color);
   color: var(--primary-white-color);
   font-weight: 500;
@@ -59,12 +63,17 @@ ul {
   background: var(--active-link-color);
 }
 
-.page-nav .link {
+.nav-item {
   color: var(--primary-black-color);
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: 500;
+  line-height: var(--primary-line-height);
+  letter-spacing: var(--primary-letter-spacing);
 }
 
-.page-nav .link:hover,
-.page-nav .link:focus {
+.nav-item .link:hover,
+.nav-item .link:focus {
   color: var(--active-link-color);
 }
 
@@ -86,6 +95,7 @@ ul {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  line-height: var(--primary-line-height);
 }
 
 .title {
@@ -93,6 +103,8 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   text-transform: capitalize;
+  text-align: center;
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 .section-title,
@@ -101,6 +113,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: var(--primary-letter-spacing);
 }
 
 .button-list {
@@ -111,6 +124,8 @@ ul {
   text-align: center;
   font-weight: 500;
   letter-spacing: 0.04em;
+  font-size: var(--primary-font-size);
+  line-height: var(--primary-line-height);
 }
 
 .button-list:hover,
